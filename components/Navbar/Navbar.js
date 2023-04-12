@@ -12,8 +12,9 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Link from 'next/link';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Services', 'Contact Us', 'About Us', 'Faq', 'Blogs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function Navbar() {
@@ -87,11 +88,30 @@ function Navbar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            {pages.map((page) => (
-                                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                                    <Typography textAlign="center">{page}</Typography>
+                            <Link href={'/services'}><MenuItem onClick={handleCloseNavMenu}>
+                                <Typography textAlign="center">Services</Typography>
+                            </MenuItem>
+                            </Link>
+                            <Link href={'/contact_us'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Contact Us</Typography>
                                 </MenuItem>
-                            ))}
+                            </Link>
+                            <Link href={'/about_us'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">About Us</Typography>
+                                </MenuItem>
+                            </Link>
+                            <Link href={'/faq'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Faq</Typography>
+                                </MenuItem>
+                            </Link>
+                            <Link href={'/blogs'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Blogs</Typography>
+                                </MenuItem>
+                            </Link>
                         </Menu>
                     </Box>
                     <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -114,15 +134,43 @@ function Navbar() {
                         LOGO
                     </Typography>
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
-                        {pages.map((page) => (
-                            <Button
-                                key={page}
-                                onClick={handleCloseNavMenu}
+
+                        <Link href={'/services'}>
+                            <Button onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
                             >
-                                {page}
+                                Services
                             </Button>
-                        ))}
+                        </Link>
+                        <Link href={'/contact_us'}>
+                            <Button onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                Contact Us
+                            </Button>
+                        </Link>
+                        <Link href={'/about_us'}>
+                            <Button onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                About Us
+                            </Button>
+                        </Link>
+                        <Link href={'/faq'}>
+                            <Button onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                Faq
+                            </Button>
+                        </Link>
+                        <Link href={'/blogs'}>
+                            <Button onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                Blogs
+                            </Button>
+                        </Link>
+
                     </Box>
 
                     {/* <Box sx={{ flexGrow: 0 }}>
