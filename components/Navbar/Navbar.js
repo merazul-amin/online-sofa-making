@@ -7,12 +7,10 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
-import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
-import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
-import AdbIcon from '@mui/icons-material/Adb';
 import Link from 'next/link';
+import ChairIcon from '@mui/icons-material/Chair';
 
 const pages = ['Services', 'Contact Us', 'About Us', 'Faq', 'Blogs'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -40,23 +38,28 @@ function Navbar() {
         <AppBar position="static">
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
-                    <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href="/"
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'none', md: 'flex' },
-                            fontFamily: 'monospace',
-                            fontWeight: 600,
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        HOME DACOR
-                    </Typography>
+                    {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
+                    <Link href={'/'}>
+                        <ChairIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                    </Link>
+                    <Link href={'/'}>
+                        <Typography
+                            variant="h5"
+                            noWrap
+                            component="a"
+                            href="/"
+                            sx={{
+                                mr: 2,
+                                display: { xs: 'none', md: 'flex' },
+                                fontFamily: 'monospace',
+                                fontWeight: 600,
+                                color: 'inherit',
+                                textDecoration: 'none',
+                            }}
+                        >
+                            HOME DACOR
+                        </Typography>
+                    </Link>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
                         <IconButton
@@ -87,9 +90,15 @@ function Navbar() {
                                 display: { xs: 'block', md: 'none' },
                             }}
                         >
-                            <Link href={'/services'}><MenuItem onClick={handleCloseNavMenu}>
-                                <Typography textAlign="center">Services</Typography>
-                            </MenuItem>
+                            <Link href={'/'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Home</Typography>
+                                </MenuItem>
+                            </Link>
+                            <Link href={'/services'}>
+                                <MenuItem onClick={handleCloseNavMenu}>
+                                    <Typography textAlign="center">Services</Typography>
+                                </MenuItem>
                             </Link>
                             <Link href={'/contact_us'}>
                                 <MenuItem onClick={handleCloseNavMenu}>
@@ -113,27 +122,37 @@ function Navbar() {
                             </Link>
                         </Menu>
                     </Box>
-                    <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
-                    <Typography
-                        variant="h5"
-                        noWrap
-                        component="a"
-                        href=""
-                        sx={{
-                            mr: 2,
-                            display: { xs: 'flex', md: 'none' },
-                            flexGrow: 1,
-                            fontFamily: 'monospace',
-                            fontWeight: 700,
-                            letterSpacing: '.3rem',
-                            color: 'inherit',
-                            textDecoration: 'none',
-                        }}
-                    >
-                        LOGO
-                    </Typography>
-                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+                    <Link href={'/'}>
+                        <ChairIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+                    </Link>
 
+                    <Link href={'/'}>
+                        <Typography
+                            variant="h5"
+                            noWrap
+                            component="a"
+                            href=""
+                            sx={{
+                                mr: 2,
+                                display: { xs: 'flex', md: 'none' },
+                                flexGrow: 1,
+                                fontFamily: 'monospace',
+                                fontWeight: 600,
+                                color: 'inherit',
+                                textDecoration: 'none',
+                            }}
+                        >
+                            HOME DACOR
+                        </Typography>
+                    </Link>
+                    <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' }, justifyContent: 'end' }}>
+                        <Link href={'/'}>
+                            <Button onClick={handleCloseNavMenu}
+                                sx={{ my: 2, color: 'white', display: 'block' }}
+                            >
+                                Home
+                            </Button>
+                        </Link>
                         <Link href={'/services'}>
                             <Button onClick={handleCloseNavMenu}
                                 sx={{ my: 2, color: 'white', display: 'block' }}
