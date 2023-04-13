@@ -2,8 +2,8 @@ import ChairIcon from '@mui/icons-material/Chair'
 import Link from 'next/link';
 const Footer = () => {
     return (
-        <div className="px-4 pt-16 mx-auto   bg-[#1976d2] text-white  lg:px-8">
-            <div className="grid gap-16 row-gap-10 mb-8 lg:grid-cols-6">
+        <div className="px-4 pt-5 mx-auto bg-[#1976d2] text-white lg:px-8">
+            <div className="grid gap-8 row-gap-10 mb-8 lg:grid-cols-6">
                 <div className="md:max-w-md lg:col-span-2">
                     <a
                         href="/"
@@ -11,7 +11,7 @@ const Footer = () => {
                         title="Company"
                         className="inline-flex items-center"
                     >
-                        <ChairIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+                        <ChairIcon sx={{ mr: 1 }} />
                         <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
                             HOME DACOR
                         </span>
@@ -25,7 +25,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 gap-5 row-gap-8 lg:col-span-4 md:grid-cols-4">
+                <div className="grid grid-cols-2 lg:col-span-4 md:grid-cols-2">
                     <div>
                         <p className="font-semibold tracking-wide text-white">
                             Category
@@ -55,14 +55,7 @@ const Footer = () => {
                                     Games
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    References
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                     <div>
@@ -94,109 +87,12 @@ const Footer = () => {
                                     Business
                                 </a>
                             </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Entertainment
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Portfolio
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p className="font-semibold tracking-wide text-white">Apples</p>
-                        <ul className="mt-2 space-y-2">
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Media
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Brochure
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Nonprofit
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Educational
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Projects
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div>
-                        <p className="font-semibold tracking-wide text-white">Cherry</p>
-                        <ul className="mt-2 space-y-2">
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Infopreneur
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Personal
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Wiki
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Forum
-                                </a>
-                            </li>
+
                         </ul>
                     </div>
                 </div>
             </div>
-            <div className="flex flex-col justify-between pt-5 pb-10 border-t sm:flex-row">
+            <div className="flex flex-col justify-between pt-5 pb-5 border-t sm:flex-row">
                 <p className="text-sm text-white">
                     © Copyright 2025 HOME DACOR Inc. All rights reserved.
                 </p>
