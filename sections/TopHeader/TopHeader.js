@@ -54,7 +54,7 @@ const TopHeader = () => {
                             <h4 className='bg-gradient-to-r text-right text-2xl from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text block'>
                                 <Typewriter
                                     options={{
-                                        strings: ['Online Sofa Making Web Platform'],
+                                        strings: ['Online Sofa Making Platform'],
                                         autoStart: true,
                                         loop: true,
                                     }}
