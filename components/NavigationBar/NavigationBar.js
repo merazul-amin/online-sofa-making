@@ -15,10 +15,11 @@ import Link from 'next/link';
 const pages = [
     <Link href='/'>Home</Link>,
     <Link href='/services'>Services</Link>,
+    <Link href='/faq'>Faq</Link>,
+    <Link href='/blogs'>Blogs</Link>,
     <Link href='/about_us'>About Us</Link>,
     <Link href='/contact_us'>Contact Us</Link>,
-    <Link href='/faq'>Faq</Link>,
-    <Link href='/blogs'>Blogs</Link>
+
 ];
 
 
