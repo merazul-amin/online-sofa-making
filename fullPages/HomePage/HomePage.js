@@ -1,4 +1,4 @@
-import TopHeader from '@/sections/TopHeader/TopHeader';
+import TopHeader from '@/components/TopHeader/TopHeader';
 import React from 'react';
 
 const HomePage = () => {

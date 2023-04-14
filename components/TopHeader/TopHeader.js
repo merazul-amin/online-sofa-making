@@ -51,7 +51,7 @@ const TopHeader = () => {
                     <div className="max-w-xl mb-6">
                         <h2 className="max-w-lg mb-6 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none bg-gradient-to-r from-pink-600 via-yellow-500 to-indigo-400 text-transparent bg-clip-text block">
                             Welcome You in the heaven of
-                            <h4 className='bg-gradient-to-r text-right text-2xl from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text block'>
+                            <span className='bg-gradient-to-r text-right text-2xl from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text block'>
                                 <Typewriter
                                     options={{
                                         strings: ['Online Sofa Making Platform'],
@@ -59,7 +59,7 @@ const TopHeader = () => {
                                         loop: true,
                                     }}
                                 />
-                            </h4>
+                            </span>
                         </h2>
                         <p className="text-gray-500 md:text-lg">
                             We are one of the best furniture making company in Qatar. You can see al designs of furniture and can give order in online. We are always with you.
