@@ -1,6 +1,9 @@
 import { Button } from '@mui/material';
 import React from 'react';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import Link from 'next/link';
 
 const ContactUs = () => {
     return (
@@ -33,6 +36,14 @@ const ContactUs = () => {
                                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                                 </svg>
                                 <a href="mailto:qataronlinesofamaking@gmail.com">qataronlinesofamaking@gmail.com</a>
+                            </p>
+                            <p className="flex items-center">
+                                <FacebookIcon />
+                                <Link className='ml-5' href="https://www.facebook.com/profile.php?id=100089544948754&mibextid=LQQJ4d">Go To Facebook Page</Link>
+                            </p>
+                            <p className="flex items-center">
+                                <InstagramIcon />
+                                <Link className='ml-5' href="https://www.instagram.com/onlinesofamaking/?igshid=MWQ2ODkyMjM%3D&fbclid=IwAR08nFn-K9gs4zdl0qDBav9Cay4xpQLivEUGHh-Z8dtDVQlvlU38fzWs7_E">Go To Instagram Page</Link>
                             </p>
                         </div>
                     </div>
