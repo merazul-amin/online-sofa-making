@@ -11,7 +11,7 @@ const Faq = () => {
         <div className='px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20'>
             <div className='max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12'>
 
-                <h1 className='text-left text-3xl'>FAQ</h1>
+                <h1 className='text-left text-3xl mb-3'>FAQ</h1>
                 <Accordion>
                     <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
