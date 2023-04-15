@@ -1,11 +1,11 @@
 import React from 'react';
-
-const Faq = () => {
+import Faq from '@/fullPages/Faq/Faq'
+const FaqRoute = () => {
     return (
         <div>
-            <h1 className='my-52'>FAQ Page</h1>
+            <Faq />
         </div>
     );
 };
 
-export default Faq;
+export default FaqRoute;

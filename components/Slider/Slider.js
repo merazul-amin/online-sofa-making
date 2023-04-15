@@ -6,7 +6,9 @@ import { Pagination, Navigation, HashNavigation, Autoplay } from "swiper";
 const Slider = () => {
     return (
         <div className="mb-10">
-            <h1 className="text-3xl text-center mb-4">Our Services (خدماتنا)</h1>
+            <h1 className="text-3xl text-center font-bold">Our Services (خدماتنا)</h1>
+
+            <p className="text-center text-purple-500 mb-4">We offer custom, eco-friendly, ergonomic, modular furniture with AR technology.</p>
             <div className="w-[90%] md:w-[60%] lg:w-[40%] mx-auto flex align-middle">
                 <Swiper
                     spaceBetween={30}
