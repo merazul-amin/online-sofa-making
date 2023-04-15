@@ -2,7 +2,7 @@ import Typewriter from 'typewriter-effect';
 
 const TopHeader = () => {
     return (
-        <div className="px-4 bg-gradient-to-r from-gray-200 via-pink-200 to-gray-200 py-16 mx-auto md:max-w-full max-w-[1800px] md:px-24 lg:px-8 lg:py-20">
+        <div className="px-4 py-16 mx-auto md:max-w-full max-w-[1800px] md:px-24 lg:px-8 lg:py-20">
             <div className="grid gap-10 lg:grid-cols-2">
                 <div className="flex flex-col justify-center md:pr-8 xl:pr-0 lg:max-w-lg">
                     <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-teal-accent-400">
@@ -50,7 +50,7 @@ const TopHeader = () => {
                     </div>
                     <div className="max-w-xl mb-6">
                         <h2 className="max-w-lg mb-6 text-3xl font-bold tracking-tight sm:text-4xl sm:leading-none bg-gradient-to-r from-pink-600 via-yellow-500 to-indigo-400 text-transparent bg-clip-text block">
-                            Welcome You in the heaven of
+                            Welcome in the heaven of
                             <span className='bg-gradient-to-r text-right text-2xl from-blue-600 via-green-500 to-indigo-400 text-transparent bg-clip-text block'>
                                 <Typewriter
                                     options={{
@@ -67,6 +67,7 @@ const TopHeader = () => {
                     </div>
                     <div>
                         <p className='italic'>"Customer Satisfaction is our first priority."</p>
+                        <p className='italic'>"رضى الزبائن هو اول اولوياتنا"</p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center -mx-4 lg:pl-8">

@@ -13,7 +13,8 @@ const Footer = () => {
                     >
                         <ChairIcon sx={{ mr: 1 }} />
                         <span className="ml-2 text-xl font-bold tracking-wide text-white uppercase">
-                            HOME DACOR
+                            HOME DACOR  (ديكور المنزل)
+
                         </span>
                     </a>
                     <div className="mt-4 lg:max-w-sm">
@@ -32,62 +33,37 @@ const Footer = () => {
                         </p>
                         <ul className="mt-2 space-y-2">
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    News
-                                </a>
+                                Sofa
                             </li>
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    World
-                                </a>
+                                Curtain
                             </li>
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Games
-                                </a>
+                                Wall Paper
+                            </li>
+                            <li>
+                                Majlish
                             </li>
 
                         </ul>
                     </div>
                     <div>
                         <p className="font-semibold tracking-wide text-white">
-                            Business
+                            فئة
                         </p>
                         <ul className="mt-2 space-y-2">
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Web
-                                </a>
+                                كنبة
                             </li>
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    eCommerce
-                                </a>
+                                ستارة
                             </li>
                             <li>
-                                <a
-                                    href="/"
-                                    className="text-white transition-colors duration-300 hover:text-deep-purple-accent-400"
-                                >
-                                    Business
-                                </a>
+                                ورق الجدران
                             </li>
-
+                            <li>
+                                مجليش
+                            </li>
                         </ul>
                     </div>
                 </div>

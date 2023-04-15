@@ -52,7 +52,7 @@ const NavigationBar = () => {
                                 textDecoration: 'none',
                             }}
                         >
-                            <Link href={'/'}>HOME DACOR</Link>
+                            <Link href={'/'}>HOME DACOR (ديكور المنزل)</Link>
                         </Typography>
 
                         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -105,9 +105,10 @@ const NavigationBar = () => {
                                 fontWeight: 700,
                                 color: 'inherit',
                                 textDecoration: 'none',
+                                fontSize: '17px'
                             }}
                         >
-                            <Link href={'/'}>HOME DACOR</Link>
+                            <Link href={'/'}>HOME DACOR (ديكور المنزل) </Link>
                         </Typography>
                         <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'flex-end' } }}>
                             {pages.map((page, index) => (
