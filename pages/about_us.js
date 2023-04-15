@@ -1,11 +1,12 @@
+import AboutUs from '@/fullPages/AboutUs/AboutUs';
 import React from 'react';
 
-const AboutUs = () => {
+const About_Us = () => {
     return (
         <div>
-            <h1 className='my-52'>About Us Page</h1>
+            <AboutUs />
         </div>
     );
 };
 
-export default AboutUs;
+export default About_Us;

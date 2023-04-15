@@ -1,11 +1,12 @@
 import React from 'react';
+import ContactUs from '@/fullPages/ContactUs/ContactUs';
 
-const ContactUs = () => {
+const Contact_us = () => {
     return (
         <div>
-            <h1 className='my-52'>Contact Us Page</h1>
+            <ContactUs />
         </div>
     );
 };
 
-export default ContactUs;
+export default Contact_us;

@@ -6,7 +6,9 @@ const Layout = ({ children }) => {
     return (
         <div className='bg-gradient-to-r from-gray-200 via-pink-200 to-gray-200'>
             <NavigationBar />
-            {children}
+            <div style={{ maxWidth: '1500px', margin: 'auto' }}>
+                {children}
+            </div>
             <Footer />
         </div>
     );

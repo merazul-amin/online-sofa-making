@@ -1,5 +1,7 @@
 import ChairIcon from '@mui/icons-material/Chair'
 import Link from 'next/link';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
+import EmailIcon from '@mui/icons-material/Email';
 const Footer = () => {
     return (
         <div className="px-4 pt-5 mx-auto bg-[#1976d2] text-white lg:px-8">
@@ -26,7 +28,7 @@ const Footer = () => {
                         </p>
                     </div>
                 </div>
-                <div className="grid grid-cols-2 lg:col-span-4 md:grid-cols-2">
+                <div className="grid grid-cols-2 lg:col-span-4 md:grid-cols-3">
                     <div>
                         <p className="font-semibold tracking-wide text-white">
                             Category
@@ -44,7 +46,6 @@ const Footer = () => {
                             <li>
                                 Majlish
                             </li>
-
                         </ul>
                     </div>
                     <div>
@@ -65,6 +66,25 @@ const Footer = () => {
                                 مجليش
                             </li>
                         </ul>
+                    </div>
+                    <div className='mt-5 md:mt-0'>
+                        <p className="font-semibold tracking-wide mb-2 text-white">
+                            Contact Info
+                        </p>
+                        <p className="flex items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="w-5 h-5 mr-2 sm:mr-6">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                            </svg>
+                            <a href='tel:+0097466721734'>+0097466721734</a>
+                        </p>
+                        <p className="flex items-center my-2">
+                            <WhatsAppIcon />
+                            <a href='tel:+0097466721734' className='ml-5'>+0097466721734</a>
+                        </p>
+                        <p className="flex items-center">
+                            <EmailIcon />
+                            <a className='ml-5' href="mailto:qataronlinesofamaking@gmail.com">qataronlinesofamaking@gmail.com</a>
+                        </p>
                     </div>
                 </div>
             </div>

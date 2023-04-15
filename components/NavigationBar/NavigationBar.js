@@ -16,7 +16,7 @@ const pages = [
     <Link href='/'>Home</Link>,
     <Link href='/products'>Products</Link>,
     <Link href='/faq'>Faq</Link>,
-    <Link href='/blogs'>Blogs</Link>,
+    // <Link href='/blogs'>Blogs</Link>,
     <Link href='/about_us'>About Us</Link>,
     <Link href='/contact_us'>Contact Us</Link>,
 
