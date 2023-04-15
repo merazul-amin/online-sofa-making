@@ -1,11 +1,15 @@
 import React from 'react';
+import products from '/public/products.json';
+
 
 const Products = () => {
+    console.log(products)
     return (
         <div>
-            <h1>This is Products Page</h1>
+            {products.map(data => 'hello')}
         </div>
     );
 };
 
 export default Products;
+
