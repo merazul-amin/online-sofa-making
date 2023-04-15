@@ -1,10 +1,147 @@
 [
     {
         "id": 1,
-        "name": "Hello"
+        "name": "Big Size Sofa",
+        "img": "/images/big-sofa.jpg"
     },
     {
         "id": 2,
-        "name": "Hello2"
+        "name": "White Sofa and Curtain",
+        "img": "/images/big-white-curtain.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Blue Color Sofa",
+        "img": "/images/blue-sofa.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Pink Curtain",
+        "img": "/images/curtain.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Full Room Sofa",
+        "img": "/images/full-room-sofa.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Golden Pink Sofa",
+        "img": "/images/golden-pink-sofa.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Sofa Curpat Wallpaper",
+        "img": "/images/golden-sofa.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Golden Color Sofa",
+        "img": "/images/golden-sofa.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Golden Sofa Table",
+        "img": "/images/golden-sofa-table.jpg"
+    },
+    {
+        "id": 10,
+        "name": "Gray Color Curtain",
+        "img": "/images/gray-curtain.jpg"
+    },
+    {
+        "id": 11,
+        "name": "Gray Color Sofa",
+        "img": "/images/gray-sofa (2).jpg"
+    },
+    {
+        "id": 12,
+        "name": "Green Color Sofa",
+        "img": "/images/green-sofa.jpg"
+    },
+    {
+        "id": 13,
+        "name": "Green Sofa and Table",
+        "img": "/images/green-sofa-table.jpg"
+    },
+    {
+        "id": 14,
+        "name": "Hall Room sofa",
+        "img": "/images/hall-room-sofa.jpg"
+    },
+    {
+        "id": 15,
+        "name": "Light Green Sofa",
+        "img": "/images/light-green-sofa.jpg"
+    },
+    {
+        "id": 16,
+        "name": "Majlish",
+        "img": "/images/majlish.jpg"
+    },
+    {
+        "id": 17,
+        "name": "Majlish, Sofa, Curtain",
+        "img": "/images/majlish-sofa-curtain.jpg"
+    },
+    {
+        "id": 18,
+        "name": "Majlish, Sofa, Making",
+        "img": "/images/majlish-sofa-making.jpg"
+    },
+    {
+        "id": 19,
+        "name": "Packaged Sofa",
+        "img": "/images/packged-sofa.jpg"
+    },
+    {
+        "id": 20,
+        "name": "Pink Color Sofa",
+        "img": "/images/pink-sofa.jpg"
+    },
+    {
+        "id": 21,
+        "name": "Pink Sofa and Curtain",
+        "img": "/images/pink-sofa-curtain.jpg"
+    },
+    {
+        "id": 22,
+        "name": "Long Sofa",
+        "img": "/images/long-sofa.jpg"
+    },
+    {
+        "id": 23,
+        "name": "Red Sofa and Curpat",
+        "img": "/images/red-sofa-curpat.jpg"
+    },
+    {
+        "id": 24,
+        "name": "Single Side Curtain",
+        "img": "/images/single-side-curtain.jpg"
+    },
+    {
+        "id": 25,
+        "name": "Sky Blue Color Sofa",
+        "img": "/images/sky-blue-sofa.jpg"
+    },
+    {
+        "id": 26,
+        "name": "Single and Multiple Sofa",
+        "img": "/images/sofa.jpg"
+    },
+    {
+        "id": 27,
+        "name": "Three sided Sofa",
+        "img": "/images/sofa2.jpg"
+    },
+    {
+        "id": 30,
+        "name": "Sofa and Curtain",
+        "img": "/images/sofa2.jpg"
+    },
+    {
+        "id": 31,
+        "name": "White and Yellow Sofa",
+        "img": "/images/white-yellow-sofa.jpg"
     }
 ]
